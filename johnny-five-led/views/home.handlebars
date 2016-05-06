@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main page</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+</head>
+<body>
+	<h1>IoT Led 13</h1>
+
+	<h3>Estado: <span id="sts">{{ledStatus}}</span> </h3>
+	<button onclick="sendToLed('acender')">Acender</button>
+	<button onclick="sendToLed('apagar')">Apagar</button>
+</body>
+</html>
